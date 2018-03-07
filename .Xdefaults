@@ -4,9 +4,10 @@
 
 URxvt.depth:                		256
 URxvt.geometry:             		90x30
-URxvt.transparent:         		false
+URxvt.transparent:         		true	
 URxvt.loginShell:           		true
 URxvt.visualBell:           		false
+URxvt.shading:				30
 
 ! Fonts
 URxvt*font:                 		xft:Monospace:pixelsize=14
@@ -20,47 +21,7 @@ URxvt.scrollBar:           		false
 ! Perl extensions
 URxvt.perl-ext-common:      		default,matcher
 URxvt.matcher.button:       		1
-URxvt.urlLauncher:          		firefox-bin
 URxvt.keysym.shift-control-c:           perl:clipboard:copy
 URxvt.keysym.shift-control-v:           perl:clipboard:paste
 
-! Color Pallete
-URxvt*background: 				#272c33
-URxvt*foreground: 				#DDDDDD
 
-
-
-
-
-URxvt*color0: #1C2023
-URxvt*color8: #747C84
-
-URxvt*color1: #aaf67a
-URxvt*color9: #8ece66
-
-
-URxvt*color2: #84cdc9
-URxvt*color10: #6Ca7a4
-
-URxvt*color3: #b0aca9
-URxvt*color11: #8b8886
-
-URxvt*color4: #729597
-URxvt*color12: #5D7a7c
-
-URxvt*color5: #908a8a
-URxvt*color13: #797474
-
-URxvt*color6: #aac3c8
-URxvt*color14: #8A9fa3
-
-URxvt*color7: #FFFFFF
-URxvt*color15: #DEDEDE
-
-URxvt*color16: #C7c795
-URxvt*color17: #C7C795
-URxvt*color18: #292F45
-URxvt*color19: #565E65
-URxvt*color20: #ADB3BA
-URxvt*color21: #DFE2E5
-URxvt*color22: #252C34
