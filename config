@@ -19,7 +19,7 @@ bindsym $mod+Return exec urxvt -tr +sb
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec dmenu_run
+bindsym $mod+d exec rofi -show run 
 
 # change focus
 bindsym $mod+h focus left
@@ -138,8 +138,8 @@ bar {
 		background $bg 
 		statusline $fg
 		separator $fg
-		inactive_workspace $mg2 $mg2 $fg $mg2
-		focused_workspace  $mg1 $mg1 $fg $mg1
+		inactive_workspace fg $fg $mg1 $fg
+		focused_workspace  $$mg1 $mg1 $fg $mg1
 		urgent_workspace   #84cdc9 #84cdc9 $fg #2e342c
 	}
 }
